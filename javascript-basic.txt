@@ -1,0 +1,44 @@
+### What is javascript and where it can run?
+  - JavaScript is a dynamic programming language used mainly for web development.
+  - It can run in web browsers (client-side), on the server (using Node.js), in mobile apps, 
+    desktop applications, and embedded systems.
+  - JavaScript’s flexibility makes it suitable for a wide range of applications, from simple interactive 
+    websites to full-scale server-side applications and mobile apps.
+
+### Syntax basic
+  - Variables (let, const, var)
+  - Data Types (Primitive: String, Number, Boolean, etc., Complex: Object, Array)
+  - Operators (Arithmetic, Comparison, Logical, etc.)
+  - Control Flow (if, else, switch)
+  - Loops (for, while, for...in, for...of)
+  - Functions (declaration, expression, arrow functions)
+  - Events (Event listeners)
+  - Arrays & Objects
+  - Error Handling (try...catch)
+  - Classes (ES6)
+
+### Concept hoisting, Event bubbling, scope, prototype, strict
+  - Hoisting: Variable and function declarations are moved to the top of their scope before execution.
+  - Event Bubbling: means that if an event is triggered on a nested element, it will propagate up to 
+    its parent elements unless stopped by calling event.stopPropagation().
+  - Scope: Defines the context in which variables are accessible. JavaScript has global, function, and 
+    block scopes.
+  - Prototype: JavaScript objects inherit properties and methods from their prototypes.
+  - Strict Mode: A restricted mode that catches common mistakes and makes the code run more securely and 
+    efficiently.
+
+###  Arrow function, module, class
+  - Arrow Functions: Provide a shorter syntax for functions, with an important distinction that they don't 
+    have their own this context (it’s inherited from the outer scope).
+  - Modules: Allow splitting code into separate files, making it easier to organize and reuse. Use export and 
+    import to share and use code across files.
+  - Classes: Provide a blueprint for creating objects, supporting inheritance and encapsulation. They are 
+    syntactic sugar over prototype-based inheritance, and help in creating structured and maintainable code.
+
+### Async vs Sync
+  - Synchronous (Sync): Code executes in a linear sequence, and each operation must complete before the next one
+    starts. It's easy to understand but can block execution, causing performance issues for tasks like 
+    network requests or reading files.
+  - Asynchronous (Async): Code can execute tasks concurrently without blocking other operations. It’s more 
+    efficient for I/O operations and is handled in JavaScript using callbacks, promises, or the 
+    async/await pattern.
